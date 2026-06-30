@@ -1,4 +1,3 @@
-# inupiaq-web
-Inupiatun Website
+# Yuarcuun Company Website
 
-See [here](./Deploy.md) for deployment notes.
+You can email us at yuarcuun [at] gmail [dot] com.
