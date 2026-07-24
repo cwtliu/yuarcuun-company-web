@@ -26,8 +26,8 @@ import Contact from './Contact.js';
 //   </Grid.Column>
 // ))
 
-let webURL = 'http://localhost:3000/'
-// let webURL = 'https://www.yuarcuun.com/'
+// let webURL = 'http://localhost:3000/'
+let webURL = 'https://www.yuarcuun.com/'
 
 
 class Home extends Component {
