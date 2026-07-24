@@ -27,7 +27,7 @@ import Contact from './Contact.js';
 // ))
 
 // let webURL = 'http://localhost:3000/'
-let webURL = 'https://www.yuarcuun.com/'
+// let webURL = 'https://www.yuarcuun.com/'
 
 
 class Home extends Component {
@@ -54,14 +54,14 @@ class Home extends Component {
   }
 	componentDidMount() {
 		window.addEventListener("resize", this.updateDimensions);
-		console.log(window.location.href)
-		if (window.location.href == webURL+'projects') {
-			this.setState({currentPage:'projects'})
-		} else if (window.location.href == webURL+'contact') {
-			this.setState({currentPage:'contact'})
-		} else if (window.location.href !== webURL) {
-			window.location.replace(webURL);
-		}
+		// console.log(window.location.href)
+		// if (window.location.href == webURL+'projects') {
+		// 	this.setState({currentPage:'projects'})
+		// } else if (window.location.href == webURL+'contact') {
+		// 	this.setState({currentPage:'contact'})
+		// } else if (window.location.href !== webURL) {
+		// 	window.location.replace(webURL);
+		// }
 	}
 
 	  componentWillUnmount() {
